@@ -2,6 +2,7 @@
     background-color: white;
     box-shadow: 3px 5px 3px rgba(0,0,0,0.6);
     margin: auto;
+    padding: 10px;
     border-radius: 5px;
     text-align: center;
 
@@ -10,19 +11,27 @@
 }
 
 .artigo-img{
+    float: left;
+}
+
+.artigo-img > img{
     width: 200px;
     height: 300px;
     box-shadow: 2px 2px 2px black;
 }
 
-span{
-    transform: rotate(90deg);
+#rodape{
+    clear: both;
 }
 
 h1{
     font-family: serif;
 }
 
+p{
+    font-size: 1.2em;
+}
+
 body{
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(180, 180, 180); 
 }
