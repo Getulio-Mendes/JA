@@ -1,0 +1,86 @@
+@media screen and (max-width: 800px){
+
+    #inicio{
+        padding-left: 10%;
+        padding-top: 20%;
+        font-size: 1.1rem;
+        padding-right: 10%;
+    }
+    #inicio a{
+        width: 80%;
+    }
+
+    #texto-do-artigo{
+        width: 90%;
+    }
+
+    #metas{
+        padding: 1rem;
+    }
+
+    #texto-do-artigo::before{
+        border-top: 50px solid var(--segunda-cor-escurecida);
+        top: calc(50px - 1rem);
+    }
+
+    /* BARRA DE NAVEGAÇÃO */
+    nav{
+        width: calc(100% - 50px);
+    }
+
+    ul{
+        max-width: calc(100vw - 100px);
+    }
+
+    header{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    /* Desfazer as colunas ou floats*/
+    img, .coluna{
+        display: block;
+        width: 100%
+    }
+
+    .meta img{
+        box-shadow: none;
+        display: block;
+        width: 100%;
+    }
+
+    .linha{
+        overflow: initial;
+    }
+
+    .meta,.dois{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* Moto G4 e afins */
+@media screen and (max-width: 360px){
+    ul{
+        font-size: 0.9rem;
+    }
+    #inicio{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+/* IPHONE 5 */
+@media screen and (max-width: 320px){
+    ul{
+        font-size: 0.75rem;
+    }
+    ul > a{
+        padding: 0.779rem;
+    }
+    #inicio{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

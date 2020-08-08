@@ -3,71 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="mobile.css">
     <title>Educação na pós-modernidade</title>
 </head>
 <body>
 
-    <header>
-        <img src="./img/book.svg" alt="livro" id="logo">
-        <nav>
-            <ul>
-                <a href="#importancia"><li>Impotância</li></a>
-                <a href="#metas"><li>Metas</li></a>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <img src="./icone.svg" alt="Icone" id="icon">
+        <ul>
+            <a href="#Artigo">
+                <li>Artigo</li>
+            </a>
+            <a href="#metas">
+                <li>Metas</li>
+            </a>
+            <a href="#ref">
+                <li>Referências</li>
+            </a>
+            <a id="recorte-pai">
+                <div id="recorte"></div>
+            </a>
+        </ul>
+        
+    </nav>
 
     <div id="fundo"></div>
-    <section id="inicial">
-        
-        <h1>A edução no mundo tecnológico</h1>
+    <section id="inicio">
+        <h1>A educação no mundo tecnológico</h1>
         <hr>
         <h3>ODS 4: Assegurar a educação inclusiva e equitativa e de qualidade, e promover oportunidades de aprendizagem ao longo da vida para todas e todos</h3>
-        <a href="https://nacoesunidas.org/pos2015/ods4/" target="_blank" rel="noopener noreferrer">
-            <button>ONU</button>
-        </a>
-        
+
+        <a href="https://nacoesunidas.org/pos2015/ods4/" target="_blank" rel="noopener noreferrer">Confira na ONU</a>
     </section>
-    <section id="importancia">
-        <div class="coluna dois">
-            <div id="container">
-                <iframe id="video" src="https://www.youtube.com/embed/htHKxLMIWrY" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+
+    <article id="Artigo">
+        <header>
+            <h2>Por que é importante</h2>
+            <h3>A educação como necessidade para dignidade</h3>
+        </header>
+
+       
+        <div id="texto-do-artigo"> 
+        <hr>
+        <p>A educação sempre foi importante para o sucesso profissional ou político de uma pessoa, nos dias de hoje ela é ainda mais; com a universalização do conhecimento pela internet e a democratização do ensino superior, mesmo quando privado, o conhecimento técnico se torna um novo mínimo e não o diferencial. No mundo globalizado de hoje as habilidades especializadas já são comuns entre as grandes empresas e o diferencial acaba sendo as habilidades conhecidas como soft skills, inteligência emocional, oratória, trabalho em equipe etc.</p>
+        <img src="./img/caderno.jpg" alt="Caderno" style="float: right;margin-left: 2.5rem;">
+        <p>Tal nova base de referência, no entanto, desvaloriza aqueles que não possuem conhecimento técnico. Eis a importância da educação para a dignidade; aqueles que não possuem os conhecimentos técnicos não conseguem empregos, posições sociais e relevância cultural de qualidade, se tornam incapazes de exercer a sua cidadania efetivamente.</p>
+        <p>Assim, é essencial para todos o acesso a uma educação que inclua o indivíduo em uma base cultural (capacidade de leitura e interpretação) e o capacite para, ao menos, aprender conhecimentos mais complexos.</p>
+        <img src="./img/estudo-no-computador.jpg" alt="Estudo no computador" style="float: left;margin-right: 2.5rem;">
+        <p>A maior parte desses critérios tem de ser concluída  utilizando o modelo tradicional de ensino, pois necessitam de uma comunidade para serem propriamente aprendidas; mas há uma vantagem técnica grande para tentar ao máximo tirar proveito das ferramentas tecnológicas. Os textos, videos e materiais didáticos são facilmente replicados e podem ser reaproveitados facilmente, de modo que o custo para a distribuição do conhecimento nunca foi tão baixo. O novo paradigma é conseguir gerar um senso de comunidade e conexão tão essencial para o aprendizado em ambientes online.</p>
+        <p>Com seus prós e contras, a educação a distância ou digital é um recurso prático de relativo baixo custo e deve ser usado sempre quando possível, justamente por ser logisticamente eficiente, assim, permitindo a melhor aplicação dos fundos investidos. Tornando possível o investimento em peso na educação daqueles que não possuem inclusão digital através modelo tradicional, ou para todos quando o último é necessário, como no caso do ensino básico em que a comunidade é o principal fator para o aprendizado.</p>  
         </div>
-        <div class="coluna dois">
-            <h2>Por que é tão importante</h2>
-            <p>A educação sempre foi importante para o desenvolvimento, no mundo globalizado de hoje ela é ainda mais importante. O acesso a educação e ensino superior nos países desenvolvidos se tornou mais comum,isso faz com que aqueles que não têm ensino especializado sejam ainda menos valorizados no mercado de competição global que vivemos</p>
-            <p>Mais do que nunca, a educação se qualifica como uma necessidade básica para todo cidadão uma vez que garante um competição justa entre todos os indivíduos, algo essencial para garantir o bem estar geral de todos. Uma educação universal também garante que todos os indivíduos participarão do desenvolvimento tecnológico ou cultural da humanidade, isto é, um maior numero de pessoas bem educadas gera um maior numeros de inovações e melhorias na sociedade</p>
-        </div>
-    </section>
+    </article>
+
     <section id="metas">
         <h2>Metas</h2>
-        <div class="coluna quatro centralizado">
+
+    <div class="linha">
+        <div class="meta coluna dois">
             <h3>4.1</h3>
-            <img src="./img/study.svg" alt="caderno" class="icon"> 
-            
+            <img src="./img/fundamental.jpg" alt="Ensino fundamental">
             <p>Até 2030, garantir que todas as meninas e meninos completem o ensino primário e secundário livre, equitativo e de qualidade, que conduza a resultados de aprendizagem relevantes e eficazes</p>
         </div>
-        <div class="coluna quatro centralizado">
+        <div class="coluna dois">
+            <p>Ao adotar sempre que possível um modelo eficiente de transmissão de informação e ensino, o capital investido rende mais, permitindo a aplicação dessa verba nos locais e níveis de ensino que realmente precisam do modelo tradicional; Essa estratégia é pragmaticamente eficiente, uma vez que o aumento da verba da educação não é politicamente conveniente para a maior parte dos partidos nos Estados democráticos, acontecendo, na maioria das vezes, de modo secundário e lento<sup><a href="#ref1">[1]</a></sup>. Esse carater aparece principalmente em uma época de crise e pandemia, onde as prioridade estão longe de ser a educação.</p>
+            <p>O que temos por garantido é a eficiência dos meios tecnológicos para garantir, quando possível, uma otimização nos recursos já gastos e até uma melhoria do ensino devido a facilidade de acesso a variadas fontes de conhecimentos. No pior dos casos, o ensino a distância garante exposição a um ambiente de estudo/ensino que antes não era possível.</p>
+        </div>
+    </div>
+    <div class="linha">
+        <div class="meta coluna dois">
             <h3>4.4</h3>
-            <img src="./img/brain.svg" alt="cérebro" class="icon">
-            
+            <img src="./img/empreendedor.jpg" alt="empreendedor">
             <p>Até 2030, aumentar substancialmente o número de jovens e adultos que tenham habilidades relevantes, inclusive competências técnicas e profissionais, para emprego, trabalho decente e empreendedorismo</p>
         </div>
-        <div class="coluna quatro centralizado">
+        <div class="coluna dois">
+            <p>Um dos mercados que mais crescem e geram oportunidades hoje em dia é o de TI <sup><a href="#ref2">[2]</a></sup> que serve como maior exemplo da flexibilidade do mundo moderno, é muito comum encontrar programadores bem sucedidos que não fizeram faculdade e aprenderam as suas habilidade pela internet gratuitamente, ou que fizeram algum curso online. Há um mercado bem desenvolvido e acessível de conhecimento que pode ser usado para desenvolver habilidades profissionais <sup><a href="#ref3">[3]</a></sup>, financeiras e gerais de modo eficiente para aqueles que muitas vezes não tem acesso ou facilidade para os meios convencionais.</p>
+            <p>Esse é o principal ponto de eficiência do ensino a distância: a aprendizagem técnica/profissional em várias áreas; o problema é garantir acesso, interesse e um senso de comunidade entre os alunos e professores. O que pode, também, ser feito através de uma solução online, como uma rede social de estudos.</p>
+        </div>
+    </div>
+    <div class="linha">
+        <div class="meta coluna dois">
             <h3>4.6</h3>
-            <img src="./img/calculator.svg" alt="calculadora" class="icon">
-            
+            <img src="./img/calculadora.jpg" alt="calculadora">
             <p>Até 2030, garantir que todos os jovens e uma substancial proporção dos adultos, homens e mulheres estejam alfabetizados e tenham adquirido o conhecimento básico de matemática</p>
         </div>
-        <div class="coluna quatro centralizado">
+        <div class="coluna dois">
+            <p>A alfabetização não pode, é claro, ser feita primariamente pelo ensino digital, uma vez que tem como principal função ensinar as crianças a se socializarem e estudar. É uma das fazes mais importantes que muitas vezes é negligenciada pelos investimentos, pois os últimos estão divididos entre todas as modalidades. Se o aparato fosse modernizado, o que seria uma mudança mais cultural do que material, poder-se-ia investir em maior peso no ensino de base e na pesquisas de base.</p>
+            <p>A participação do Estado e dos recursos públicos é muito importante nessas áreas, pois elas não apresentam benefícios imediatos e ganham pouco destaque no setor privado. No século XXI, é possível o melhor dos dois mundos: um ensino técnico privado (cursos) acessível e uma base pública essencial (ensino teórico público e base científica de pesquisa pública) e disponível a todos.</p>
+        </div>
+    </div>
+
+    <div class="linha">
+        <div class="meta coluna dois">
             <h3>4.c</h3>
-            <img src="./img/teacher.svg" alt="professor" class="icon">
-            
+            <img src="./img/Aula online.jpg" alt="Aula online">
             <p>Até 2030, substancialmente aumentar o contingente de professores qualificados, inclusive por meio da cooperação internacional para a formação de professores, nos países em desenvolvimento, especialmente os países menos desenvolvidos e pequenos Estados insulares em desenvolvimento</p>
         </div>
+        <div class="coluna dois">
+            <p>O problema logístico da distância entre os pontos geográfico se torna muito menor com o auxílio digital, o problema é ser capaz de organizar um time e coordenar todas as informações, pois informações há em abundância; o real problema é conseguir passa-las a todos. Isso pode ser resolvido com organização cultural, conseguir agrupar estudantes e alunos de alto e baixo nível em uma plataforma que promova e permita o aprendizado eficiente.</p>
+            <p>Com essa e outras soluções é possível criar um ambiente de estudo que possa futuramente substituir os atuais ou ao menos complementar os já existentes. De todo modo, o custo para o desenvolvimento dessas soluções não é grande <i>per se</i>, mas as ideias eficientes de como orgarnizar essas comunidades são.</p>
+            <p>As mídias sociais são ótimos exemplos de interação social em uma comunidade digital, muitas pessoas as usam como ambiente de estudos; mas elas ainda são limitadas, não por fatores técnicos, mas culturais. O futuro está em unir a dinâmica comunicativa das redes sociais com um ambiente de estudo em uma plataforma especializada, permitindo o aprendizado humanitário, acessível a todos e presente em todos os níveis.</p>
+        </div>
+    </div>
     </section>
-    <footer>Getulio Mendes <br>Meu primeiro site 2020</footer>
+
+    <footer>
+        <h2 id="ref">Referências</h2>
+        <span id=ref1>1: confira um caso recente do Brasil 
+            <a href="https://educacao.uol.com.br/noticias/2019/05/02/em-4-anos-brasil-reduz-investimento-em-educacao-em-56.htm" target="_blank" rel="noopener noreferrer">aqui.</a>
+        Para uma visão geral no mundo 
+        <a href="https://ourworldindata.org/global-education#cross-country-spending-patters" target="_blank" rel="noopener noreferrer">clique aqui.</a>
+        Em suma, mesmo que o investimento total tenda a aumentar ele é instável na maioria dos países, não é, de modo algum, uma boa ideia contar com a benevolência dos Estados para resolverem o problema da educação por si mesmos.
+        </span>
+        <br>
+
+        <span id="ref2">2: 
+            <a href="https://computerworld.com.br/2019/08/19/mercado-de-ti-brasileiro-cresce-acima-da-media-global-aponta-abes/" target="_blank" rel="noopener noreferrer">confira</a>
+        </span>
+        <br>
+
+        <span id="ref3">3: Confira sites como 
+            <a href="https://www.udemy.com/" target="_blank" rel="noopener noreferrer">Udemy</a>, 
+            <a href="https://www.coursera.org/" target="_blank" rel="noopener noreferrer">Coursera</a>, 
+            <a href="https://www.skillshare.com/" target="_blank" rel="noopener noreferrer">Skillshare</a>
+        </span>
+        <br>
+
+        <div style="float: left;">
+        <p>Meu primeiro site 2020</p> 
+        <p>Getúlio Mendes</p>
+        </div>
+        <p style="float: right;">Todas as imagems de <a href="https://www.pexels.com/" target="_blank" rel="noopener noreferrer">pexels.com</a></p>
+    </footer>
 </body>
 </html>
